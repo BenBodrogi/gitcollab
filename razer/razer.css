@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(135, 135, 135);
+    font-weight: 400;
+}
+
+.container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    top: 0px;
+    justify-items: center;
+    background-color: black;
+    border-bottom: 1px solid #44d62c;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav {
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 1200px;
+    color: gray;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+.nav i:hover, img:hover {
+    cursor: pointer;
+}
+
+.order {
+    margin-top: 60px;
+    width: 100%;
+    background-color: #555555;
+    color: white;
+    text-align: center;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order p {
+    font-size: 15px;
+}
+
+.container-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+}
+
+.content-wide {
+    grid-column: span 2;
+    width: 100%;
+    height: 700px;
+    background-size: auto 700px;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    height: 580px;
+    background-size: auto 580px;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+.inner, .smallinner {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+}
+
+.inner h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin: 43px 0 0 0;
+    padding: 0;
+}
+
+.inner h6 {
+    font-size: 28px;
+    font-weight: 300;
+    margin: -10px 0 0 0;
+    padding: 0;
+}
+
+.inner p {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 3px 0 0 0;
+    padding: 0;
+}
+
+.smallinner h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 55px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.smallinner h6 {
+    font-size: 21px;
+    font-weight: 300;
+    margin: -3px 0 0 0;
+    padding: 0;
+}
+
+.smallinner p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 3px 0 0 0;
+    padding: 0;
+}
+.inner span:hover {
+    text-decoration: underline;
+}
+
+.fix {
+    line-height: 40px;
+}
+
+.item1 {
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-naga-v2-pro-homepage-large-2x.jpg");
+}
+
+.item2 {
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-wolverine-v2-pro-homepage-desktop1x.jpg");
+}
+
+.item3 {
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-blade-14-quartz-2022-homepage-desktop.jpg");
+}
+
+.item4 {
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/dec1968e4414aa9dd00718ae5c3f531b/razer-naga-v2-hyperspeed-b-950x580-desktop.jpg");
+}
+
+.item5 {
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/dec1968e4414aa9dd00718ae5c3f531b/razer-holiday-gift-guide-2022-b-950x580-desktop.jpg");
+}
+
+.item6 {
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-blade-15-b-950x580-desktop-oled.jpg");
+}
+
+.item7 {
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/dec1968e4414aa9dd00718ae5c3f531b/razer-edge-b-950x580-desktop.jpg");
+}
+
+.item8 {
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-quartz-mercury-white-homepage-b-950x580-desktop.jpg");
+}
+
+.item9 {
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-enki-pro-koenigsegg-williams-esports-950x580-desktop.jpg");
+}
+
+.badge {
+    background-color: #ff9c07;
+    line-height: 12px;
+    color: black;
+    border:1px solid #ff9c07;
+    font-size: 2px;
+    padding: 4px 14px;
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+
+.badge p {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+footer {
+    display: block;
+    justify-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 370px;  
+    background-color: #111111;
+    margin-top: 10px;
+}
+
+.cont1 {
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    border-spacing: 40px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.cont1 li {
+    list-style-type: none;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.cont1 a:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer h5 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.gamer h5 {
+    font-weight: 500;
+    color: rgb(49, 220, 49);
+    font-size: 15px;
+}
+
+.hr {
+    width:1170px;
+    height:1px;
+    background-color: rgb(63, 63, 63);
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.close {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.closure {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1170px;
+    color: gray;
+    justify-content: space-between;
+}
+
+.closure a {
+    font-size: 15px; 
+    font-weight:400;
+}
+
+.closure a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.gamer i {
+    border: 1px solid rgb(49, 220, 49);
+    padding: 10px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    border-radius: 50px;
+    height: 5px;
+    width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+i.equal {
+    display: none;
+}
+
+.subfoot {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #555555;
+}
+
+.mobilefooter {
+    background: #111111; display: none; flex-direction: column; align-items: center;}
+
+@media only screen and (max-width:768px) {
+    .nav a, .nav i.glass {
+        display: none;
+    }
+    .nav i.equal {
+        display: block;
+        margin-left: 20px;
+        height: 20px;
+        width: 20px;
+    }
+    .container-main{
+        display: block;
+    }
+    .content-wide, .content {
+        height: 560px;
+        margin-bottom: 10px;
+    } 
+    .inner h1, .smallinner h1 {
+        font-size: 32px;
+        font-weight: 600;
+        margin: 43px 0 0 0;
+        padding: 0;
+    }
+    .inner h6, .smallinner h6 {
+        font-size: 19px;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+    }
+    .inner p, .smallinner p {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 3px 0 0 0;
+        padding: 0;
+    }
+    .item1 {
+        background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-naga-v2-pro-homepage-small2x.jpg");
+    }
+    .item2 {
+        background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-wolverine-v2-pro-homepage-mobile2x.jpg");
+    }
+    .item3{
+        background-image: url("https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-blade-14-quartz-2022-homepage-mobile2x.jpg");
+    }
+    .content-wide {
+        width: 100%;
+        height: 560px;
+        background-size: auto 830px;
+        background-position: center 550px;
+    }
+    .mobilefooter {
+        display: flex;
+    } 
+    .close {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
+
