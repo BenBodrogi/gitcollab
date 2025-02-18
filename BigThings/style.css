@@ -43,3 +43,11 @@ button a {
 .men-links {
     margin: 30px;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+  
+}
